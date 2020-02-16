@@ -98,7 +98,8 @@ a {
   padding: 1rem;
 }
 
-.inner-header ul li a:hover {
+.inner-header ul li a:hover,
+.inner-header ul li .current {
   color: #0065cc;
   background: #fff;
   border-radius: 7px;
