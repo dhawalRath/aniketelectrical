@@ -1,0 +1,130 @@
+@media (max-width: 500px) {
+  /* Header */
+  .inner-header {
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+  }
+
+  .inner-header .logo {
+    padding: 0.5rem 0;
+  }
+
+  .inner-header ul {
+    padding-bottom: 1rem;
+  }
+
+  .inner-header ul li a {
+    padding: 0.5rem 1.2rem;
+  }
+
+  /* Welcome */
+  #case {
+    position: relative;
+    height: 88vh;
+  }
+
+  #case .case-content {
+    top: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .large {
+    font-size: 2rem;
+    padding: 0 3rem;
+    text-decoration: none;
+  }
+
+  .large span {
+    text-decoration: underline #0065cc;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+
+  /* Services */
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 280px));
+    grid-auto-rows: 154px;
+  }
+
+  .front {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .back ul {
+    font-size: 1rem;
+    padding-left: 2.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .back ul li {
+    padding-bottom: 1rem;
+  }
+
+  .back ul li span {
+    font-size: 0.75rem;
+  }
+
+  #card-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url(../img/a.jpg) no-repeat center center/cover;
+  }
+  
+  #card-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url(../img/b.jpg) no-repeat center center/cover;
+  }
+  
+  #card-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url(../img/c.jpg) no-repeat center center/cover;
+  }
+  
+  #card-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url(../img/d.jpg) no-repeat center center/cover;
+  }
+
+  /* Contact */
+  #contact {
+    height: 330px;
+  }
+
+  .wrap {
+    display: block;
+    text-align: center;
+  }
+
+  #call,
+  #address,
+  #email {
+    padding-bottom: 2rem;
+  }
+
+  /* Footer */
+  .footer {
+    height: 65px;
+    font-size: 0.8rem;
+  }
+
+  /* Call Now */
+  #call-now {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    bottom: 2rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  #call-now a {
+    width: 50px;
+    height: 50px;
+    background-color: #0065cc;
+    border-radius: 50%;
+  }
+}
