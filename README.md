@@ -2,7 +2,7 @@
 
 ### :point_right: [Live Site](https://anikete.netlify.app/)
 
-![desktop](./desktop.png) 
+![ss](./ss.png) 
 
 ## :muscle: Built with
   - HTML5
