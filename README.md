@@ -1,4 +1,4 @@
-# :star: Aniket Electrical - Local Electrician Website :star2:
+# :star2: Aniket Electrical - Local Electrician Website :star2:
 
 ### :point_right: [Live Site](https://anikete.netlify.app/)
 
